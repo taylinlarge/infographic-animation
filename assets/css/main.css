@@ -1,0 +1,3580 @@
+* {
+ 	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/maxresdefault.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+body {
+	/*background-color: #272A3A;*/
+	width: 80%;
+	max-width: 650px;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-sar;
+}
+
+.wrapper {
+	/*background-color: #272A3A;*/
+	overflow: hidden;
+}
+
+.header {
+  	position: relative;
+}
+
+.logo {
+	background-image: url(../img/header.png);
+	background-size: 100% 100%;
+	height: 198px;
+}
+
+.logo h1 {
+	position: relative;
+	color: #62b6ff;
+	transform: rotateX(25deg);
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin: 0;
+	display: inline-block;
+	top: 63px;
+	left:21%;
+}
+
+.header-text-div {
+	margin: 0 0 0 30px;
+}
+
+h1, h2, p, li, span {
+	color: white;
+}
+
+.header-first-text, .header-second-text {
+	display: inline-block;
+}
+
+.header-first-text {
+	width: 60%;
+}
+
+.header-second-text {
+	width: 75%;
+}
+
+.header-first-text span {
+	color: #7eaff1;
+}
+
+.header-second-span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.intro-text2 {
+	color: #dfe279;
+}
+
+.intro-saber {
+	position: absolute;
+	background-image: url(../img/lightsaber1.png);
+	background-size: 100% 100%;
+	width: 19%;
+	height: 12%;
+	top: 47%;
+	right: 18%;
+}
+
+.intro-blaster {
+	position: absolute;
+	background-image: url(../img/blaster1.png);
+	background-size: 100% 100%;
+	width: 15%;
+	height: 15%;
+	top: 64%;
+	left: 59%;
+}
+
+.intro-battery {
+	position: absolute;
+	background-image: url(../img/battery.png);
+	background-size: 100% 100%;
+	width: 10%;
+	height: 15%;
+	top: 53%;
+	left: 75%;
+}
+
+.intro-xwing {
+	position: absolute;
+	background-image: url(../img/small-x-wing1.png);
+	background-size: 100% 100%;
+	width: 15%;
+	height: 8%;
+	top: 69%;
+    left: 76%;
+    background-repeat: no-repeat;
+}
+
+/*==========================GRAPH PORTION============================*/
+
+.intro-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #5780f4;
+	border-radius: 25px;
+}
+
+.text-holder p:first-child,
+.text-holder2 p:first-child,
+.text-holder3 p:first-child,
+.text-holder4 p:first-child,
+.text-holder5 p:first-child,
+.text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.intro-first-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.first-battery-wrapper {
+	display: flex;
+	margin: 0 0 0 30px;
+}
+
+.first-battery-img {
+	display: inline-block;
+	background-image: url(../img/battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.first-battery-wrapper .text-holder {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
+.first-car-battery-wrapper {
+	display: flex;
+	margin: 20px 0 20px 30px;
+}
+
+.first-car-battery-img {
+	display: inline-block;
+	background-image: url(../img/carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.first-car-battery-wrapper .text-holder2 {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.first-tesla-wrapper {
+	display: flex;
+	margin: 0 0 0 30px;
+}
+
+.first-tesla-img {
+	display: inline-block;
+	background-image: url(../img/tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.first-tesla-wrapper .text-holder3 {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.graph-divider {
+	width: 2px;
+	margin-right: 0;
+    margin-left: 60px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.intro-second-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.first-oil-wrapper {
+	display: flex;
+	margin: 0px 0 0 30px;
+}
+
+.first-oil-img {
+	display: inline-block;
+	background-image: url(../img/oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.first-oil-wrapper .text-holder4 {
+	display: inline-block;
+
+}
+
+.first-reactor-wrapper {
+	display: flex;
+	margin: 20px 0 20px 30px;
+}
+
+.first-reactor-img {
+	display: inline-block;
+	background-image: url(../img/powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.first-reactor-wrapper .text-holder5 {
+	display: inline-block;
+
+}
+
+.first-earth-wrapper {
+	display: flex;
+
+	margin: 0 0 0px 30px;
+}
+
+.first-earth-img {
+	display: inline-block;
+	background-image: url(../img/earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.first-earth-wrapper .text-holder6 {
+	display: inline-block;
+
+}
+
+/*============================LIGHTSABERS==========================*/
+
+.lightsaber-wrapper {
+	
+}
+
+.lightsaber-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.lightsaber-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.lightsaber-header p {
+	font-size: .8em;
+	width: 60%;
+}
+
+.lightsaber-header p span {
+	color: #2fba2d;
+}
+
+.first-saber-bracket {
+	position: absolute;
+	top: 41%;
+	left: 70%;
+}
+
+.first-saber-bracket .top-line {
+	position: absolute;
+	background-color: #feffa0;
+	width: 15px;
+	height: 2px;
+}
+
+.first-saber-bracket .horizontal-line {
+	position: absolute;
+	left: 13px;
+	background-color: #feffa0;
+	width: 2px;
+	height: 60px;
+}
+
+.first-saber-bracket .bot-line {
+	position: absolute;
+	top: 60px;
+	background-color: #feffa0;
+	width: 15px;
+	height: 2px;
+}
+
+.first-saber-bracket .mid-line {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	background-color: #feffa0;
+	width: 15px;
+	height: 2px;
+}
+
+.dashed-circle {
+	position: absolute;
+	top: -23px;
+	left: 40px;
+	width: 100px;
+	height: 100px;
+	border: 3px dashed #4ffb6b;
+	border-radius: 50px;
+}
+
+.hilt {
+	position: absolute;
+	top: -9px;
+	left: 60px;
+	background-image: url(../img/saber-hilt.png);
+	background-size: 100% 100%;
+	width: 60px;
+	height: 75px;
+}
+
+.blast-door-wrapper {
+	position: relative;
+	margin-left: 30px;
+}
+
+p.blast-door-first-text {
+	font-size: .8em;
+	width: 25%;
+	padding-top: 120px;
+}
+
+.blast-door-first-text span {
+	color: #2fba2d;
+}
+
+p.blast-door-second-text {
+	font-size: .8em;
+	width: 19%;
+}
+
+.blast-door-second-text span {
+	color: #2fba2d;
+	font-size: 1.4em;
+}
+
+.second-saber-bracket {
+	position: absolute;
+	top: 143px;
+	left: 27%;
+}
+
+.blast-door-wrapper .top-line {
+	position: absolute;
+	top: -101px;
+	left: 17px;
+	width: 15px;
+	height: 2px;
+	background-color: #feffa0;
+}
+
+.blast-door-wrapper .horizontal-line {
+	position: absolute;
+	top: -101px;
+	left: 15px;
+	width: 2px;
+	height: 210px;
+	background-color: #feffa0;
+}
+
+.blast-door-wrapper .bot-line {
+	position: absolute;
+	top: 109px;
+	left: 15px;
+	width: 15px;
+	height: 2px;
+	background-color: #feffa0;
+}
+
+.blast-door-wrapper .mid-line {
+	position: absolute;
+	width: 15px;
+	height: 2px;
+	background-color: #feffa0;
+	top: 75px;
+}
+
+.blast-door-img {
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	background-image: url(../img/blast-door.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 260px;
+	height: 260px;
+}
+
+.blast-door-circle {
+	position: absolute;
+	top: 80px;
+	left: 28.5%;
+	width: 110px;
+	height: 110px;
+	border-radius: 55px;
+	border: 2px solid #fa6300;
+}
+
+.blast-door-circle-line {
+	position: absolute;
+	top: 110px;
+	left: 68%;
+	height: 2px;
+	width: 75px;
+	background-color: #d26d59;
+}
+
+.blast-door-third-text {
+	position: absolute;
+	top: 40px;
+	left: 78%;
+	font-size: .8em;
+	width: 90px;
+}
+
+.number9 {
+	color: #f66c01;
+	font-size: 5em;
+	font-family: 'impact';
+}
+
+.meters {
+	color: #f66c01;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+.saber-info-wrapper {
+	position: relative;
+	width: 520px;
+	margin: 0 auto;
+}
+
+.saber-info-first-text {
+	text-align: center;
+	font-size: 1.3em;
+	margin: 0 auto;
+}
+
+.saber-power {
+	margin: 0 auto;
+}
+
+.number169 {
+	font-size: 6em;
+	font-family: 'impact';
+}
+
+.GJ {
+	font-size: 4.5em;
+	font-family: 'impact';
+	color: #e5fe4a;
+	text-transform: uppercase;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.saber-info-second-text {
+	font-size: 1em;
+	width: 150px;
+	position: absolute;
+	top: 130px;
+	left: 37%;
+	margin: 0 auto;
+}
+
+.saber-math {
+	text-align: center;
+}
+
+.saber-math p {
+	margin: 0 auto;
+}
+
+.open-bracket-saber, .close-bracket-saber {
+	color: #45fd4d;
+	font-size: 2.5em;
+	position: absolute;
+}
+
+.open-bracket-saber {
+	top: 160px;
+	left: 20%;
+}
+
+
+.close-bracket-saber {
+	top: 160px;
+	right: 20%;
+}
+
+p.saber-info-third-text, p.saber-info-fourth-text {
+	display: inline-block;
+	width: auto;
+	font-size: .8em;
+}
+
+.gj-line {
+
+}
+
+.gj-line .vertical-line {
+	position: absolute;
+	top: 124px;
+	right: 7%;
+	height: 65px;
+	width: 2px;
+	background-color: #dbf637;
+}
+
+.gj-line .bot-line {
+	position: absolute;
+	height: 2px;
+	width: 70px;
+	top: 189px;
+	right: 7%;
+	background-color: #dbf637;
+}
+
+
+.saber-img {
+	background-image: url(../img/main-hilt.png);
+	background-size: 100% 100%;
+	width: 35%;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.saber-blade {
+	position: absolute;
+	height: 20px;
+	width: 66%;
+	border: 2px solid #65e578;
+	border-radius: 30px;
+	top: 250px;
+	left: 34%;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-left-width: 0px;
+}
+
+.filler {
+	position: absolute;
+	top: 16px;
+	left: -12px;
+	width: 5%;
+	height: 2px;
+	background-color: #65e578;
+}
+
+.saber-line {
+	position: relative;
+}
+
+.saber-line .top-line {
+	position: absolute;
+	height: 50px;
+	width: 20px;
+	top: -25px;
+    left: -12px;
+    border: 2px solid #dbf637;
+    border-radius: 4px;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+/*.saber-line .vertical-line {
+	position: absolute;
+	width: 2px;
+	height: 30px;
+	background-color: #dbf637;
+}*/
+
+/*===========================LIGHTSABER GRAPH PORTION==================*/
+
+.lightsaber-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #53e23b;
+	border-radius: 25px;
+	margin-top: 25px;
+}
+
+.lightsaber-text-holder p:first-child,
+.lightsaber-text-holder2 p:first-child,
+.lightsaber-text-holder3 p:first-child,
+.lightsaber-text-holder4 p:first-child,
+.lightsaber-text-holder5 p:first-child,
+.lightsaber-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.lightsaber-first-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.lightsaber-graph ul, .lightsaber-graph li {
+	font-size: .9em;
+	color: #dbf637;
+}
+
+.lightsaber-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.lightsaber-battery-img {
+	display: inline-block;
+	background-image: url(../img/saber-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder {
+	display: inline-block;
+}
+
+.lightsaber-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.lightsaber-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.lightsaber-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.lightsaber-car-battery-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 20px 30px;
+}
+
+.lightsaber-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/saber-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder2 {
+	display: inline-block;
+}
+
+.lightsaber-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.lightsaber-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.lightsaber-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.lightsaber-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 0 0 20px 30px;
+}
+
+.lightsaber-tesla-img {
+	display: inline-block;
+	background-image: url(../img/saber-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder3 {
+	display: inline-block;
+}
+
+.lightsaber-text-holder3 p{
+	margin: 0;
+}
+
+.saber-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.lightsaber-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.lightsaber-oil-wrapper {
+	display: flex;
+	margin: 0 30px 0 0;
+}
+
+.lightsaber-oil-img {
+	display: inline-block;
+	background-image: url(../img/saber-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder4 {
+	display: inline-block;
+}
+
+.lightsaber-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.lightsaber-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.lightsaber-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.lightsaber-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.lightsaber-reactor-img {
+	display: inline-block;
+	background-image: url(../img/saber-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder5 {
+	display: inline-block;
+
+}
+
+.lightsaber-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 0 0;
+}
+
+.lightsaber-earth-img {
+	display: inline-block;
+	background-image: url(../img/saber-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.lightsaber-text-holder6 {
+	display: inline-block;
+}
+
+.lightsaber-text-holder6 p{
+	margin: 0;
+}
+
+.lightsaber-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.ls-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.ls--text {
+	transform-origin: top;
+}
+
+
+/*================================BLASTERS SECTION=====================*/
+
+.blaster-wrapper {
+	position: relative;
+}
+
+.blaster-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.blaster-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.blaster-header p{
+	font-size: .8em;
+}
+
+.blaster-header .header-first-text {
+	width: 72%
+}
+
+.blaster-header .header-first-text span { 
+	color: red;
+}
+
+.blaster-header .header-second-text {
+	width: 44%;
+}
+
+.blaster-header .header-second-text span{
+	color: #911746;
+}
+
+.leia-img-wrapper {
+
+}
+
+.leia-img-wrapper .vertical-line {
+	position: absolute;
+	left: 33%;
+	height: 70px;
+	width: 90px;
+	border: 2px solid red;
+	border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+.leia-img {
+	background-image: url(../img/leia.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 34%;
+	height: 310px;
+	position: absolute;
+    top: 149px;
+    left: 44%;
+}
+
+.blaster-beam-img {
+	position: absolute;
+	background-image: url(../img/blaster-shot.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 41%;
+	opacity: .7;
+	top: -18px;
+	right: 0%;
+}
+
+.leia-img-wrapper .bot-line {
+	position: absolute;
+	border: 1px solid red;
+	width: 65%;
+	top: 455px;
+	left: 30%;
+}
+
+.chewy-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .8em;
+	margin-left: 30px;
+	margin-top: 250px;
+}
+
+.chewy-img {
+	
+	background-image: url(../img/small-chewy.png);
+	background-size: 100% 100%;
+	width: 180px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+.chewy-text {
+	margin-left: 15px;
+}
+
+.chewy-wrapper .first, .chewy-wrapper .third {
+	margin: 0;
+}
+
+.chewy-wrapper .first {
+	width: 170px;
+}
+
+.chewy-wrapper .second {
+	color: red;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-family: 'impact';
+    margin: 0;
+}
+
+.chewy-wrapper .third {
+	width: 180px;
+}
+
+.red-box {
+	display: flex;
+    background-color: #f22522;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red-box p {
+	padding: 0 30px;
+}
+
+.han-wrapper {
+
+}
+
+.left-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #da3a78;
+	border-radius: 20px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.blaster-saber-img {
+	background-image: url(../img/blaster-saber.png);
+	background-size: 100% 100%;
+	width: 80%;
+    height: 55px;
+    margin: 10px 20px 0 20px;
+}
+
+.blaster-rifle-img {
+	background-image: url(../img/rifle-icon.png);
+	background-size: 100% 100%;
+	width: 80%;
+	height: 65px;
+}
+
+.left-box p {
+	width: 180px;
+	font-size: .8em;
+	transform-origin: left;
+}
+
+.han-img {
+	position: absolute;
+	left: 32%;
+	top: 675px;
+	background-image: url(../img/han-solo.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 68%;
+	height: 320px;
+}
+
+/*===========================BLASTER GRAPH PORTION======================*/
+
+.blaster-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #cf2528;
+	border-radius: 25px;
+	margin-top: 25px;
+	/*box-shadow: 0px 0px 10px 5px #cf2528;*/
+}
+
+.text-holder p:first-child,
+.text-holder2 p:first-child,
+.text-holder3 p:first-child,
+.text-holder4 p:first-child,
+.text-holder5 p:first-child,
+.text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.blaster-first-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.blaster-graph ul, .blaster-graph li {
+	font-size: .9em;
+	color: #f22522;
+}
+
+.blaster-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.blaster-battery-img {
+	display: inline-block;
+	background-image: url(../img/blaster-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.text-holder {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.blaster-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.blaster-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/blaster-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.text-holder2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-holder2 p:first-child {
+	margin: 0;
+}
+
+.text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.blaster-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 0 0 20px 30px;
+}
+
+.blaster-tesla-img {
+	display: inline-block;
+	background-image: url(../img/blaster-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.text-holder3 {
+	display: inline-block;
+}
+
+.text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.text-holder3 p{
+	margin: 0;
+}
+
+.blaster-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.blaster-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.blaster-oil-wrapper {
+	display: flex;
+	margin: 0 30px 0 0;
+}
+
+.blaster-oil-img {
+	display: inline-block;
+	background-image: url(../img/blaster-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.text-holder4 {
+	display: inline-block;
+}
+
+.text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.blaster-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.blaster-reactor-img {
+	display: inline-block;
+	background-image: url(../img/blaster-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.text-holder5 {
+	display: inline-block;
+
+}
+
+.blaster-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 0 0;
+}
+
+.blaster-earth-img {
+	display: inline-block;
+	background-image: url(../img/blaster-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.text-holder6 {
+	display: inline-block;
+}
+
+.text-holder6 p{
+	margin: 0;
+}
+
+.text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.blaster-graph-imgs{
+	background-repeat: no-repeat;
+}
+
+.blaster--text {
+	transform-origin: top;
+}
+
+/*=====================STAR DESTROYER SECTION====================*/
+
+.star-destroyer-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.star-destroyer-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+
+.star-destroyer-header .first-header-text {
+	width: 300px;
+	font-size: .8em;
+}
+
+.header-number {
+	display: flex;
+}
+
+.sd--number {
+	position: relative;
+	font-size: 2.5em;
+	font-family: 'impact';
+	color: #427ff2;
+	margin: 0;
+}
+
+.star-destroyer-header .second-header-text {
+	font-size: .8em;
+	width: 160px;
+}
+
+.star-destroyer-header .second-header-text span {
+	color: #72e8dc;
+}
+
+.star-destroyer-img-wrapper {
+	position: relative;
+}
+
+.star-destroyer-img {
+	position: absolute;
+	background-image: url(../img/star-destroyer.png);
+	background-size: 100% 100%;
+	width: 60%;
+	height: 270px;
+	right: 0;
+	top: -180px;
+
+}
+
+.star-destroyer-blast-line {
+	position: absolute;
+	width: 18%;
+	height: 5px;
+	background-color: #e1f174;
+	left: 25%;
+	top: 95px;
+	transform: rotate(-20deg);
+}
+
+.star-destroyer-blast-ball {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border: 7px solid #e1f174;
+	border-radius: 100%;
+	top: 100px;
+	left: 20%;
+}
+
+.star-destroyer-second-header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-right: 15%;
+	margin-top: 120px;
+}
+
+.second-header-number {
+
+	font-size: 2.5em;
+	font-family: 'impact';
+	color: #427ff2;
+	margin: 0;
+}
+
+.backet-info-sd {
+	display: flex;
+	top: 50px;
+}
+
+.bracket-info-text-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 10px;
+}
+
+.open-bracket-sd, .close-bracket-sd {
+	font-size: 2.5em;
+	color: #44f8ff;
+	display: inline-block;
+}
+
+.sd-number, .sd-number-info {
+	font-size: .8em;
+	margin: 0;
+}
+
+.star-destroyer-second-header .top-line {
+	position: relative;
+	width: 30px;
+	height: 35px;
+	border: 3px solid #3fffff;
+	top: -20px;
+	right: -5%;
+	border-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+}
+
+/*=====================STAR DESTROYER GRAPH PORTION====================*/
+
+.star-destroyer-first-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #4a59be;
+	border-radius: 25px;
+	margin-top: -20px;
+}
+
+.sd-text-holder p:first-child,
+.sd-text-holder2 p:first-child,
+.sd-text-holder3 p:first-child,
+.sd-text-holder4 p:first-child,
+.sd-text-holder5 p:first-child,
+.sd-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.star-destroyer-first-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.star-destroyer-first-graph ul, .star-destroyer-first-graph li {
+	font-size: .9em;
+	color: #3fffff;
+}
+
+.star-destroyer-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.star-destroyer-battery-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd-text-holder {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sd-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.sd-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+.star-destroyer-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.star-destroyer-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/star-destroyer-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd-text-holder2 {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sd-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.sd-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.star-destroyer-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 30px;
+}
+
+.star-destroyer-tesla-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.sd-text-holder3 {
+	display: inline-block;
+}
+
+.sd-text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.sd-text-holder3 p{
+	margin: 0;
+}
+
+.star-destroyer-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.star-destroyer-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.star-destroyer-oil-wrapper {
+	display: flex;
+	margin: 10px 30px 0 0;
+}
+
+.star-destroyer-oil-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd-text-holder4 {
+	display: inline-block;
+}
+
+.sd-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.sd-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.star-destroyer-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.star-destroyer-reactor-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.sd-text-holder5 {
+	display: inline-block;
+
+}
+
+.star-destroyer-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 30px 0;
+}
+
+.star-destroyer-earth-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd-text-holder6 {
+	display: inline-block;
+}
+
+.sd-text-holder6 p{
+	margin: 0;
+}
+
+.sd-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.sd-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.sd-graph--text {
+	transform-origin: top;
+}
+
+
+/* =======second header========= */
+
+.star-destroyer-third-header {
+	display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sd-third-power {
+	position: relative;
+	font-size: 2.5em;
+	font-family: 'impact';
+	color: #427ff2;
+	margin: 0;	
+}
+
+.sd-third-header-number {
+	display: flex;
+}
+
+
+.sd-text-wrapper .sd-open-bracket, .sd-text-wrapper .sd-close-bracket {
+	font-size: 2.5em;
+	color: #44f8ff;
+	display: inline-block;
+}
+
+.sd-third-header-info {
+	font-size: .8em;
+	display: inline-block;
+	margin: 0;
+}
+
+.star-destroyer-third-header .top-line {
+    position: relative;
+	border: 3px solid #44f8ff;
+    top: 70px;
+    left: -1%;
+	height: 50px;
+	width: 50px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.star-destroyer-small-img {
+    position: relative;
+    top: 0;
+    left: 40%;
+	background-image: url(../img/small-sd.png);
+	background-size: 100% 100%;
+	width: 17%;
+	height: 80px;
+}
+
+/* ===================STAR DESTROYER SECOND GRAPH================= */
+
+.star-destroyer-second-graph {
+	display: flex;	
+	border: 2px solid #4a59be;
+	border-radius: 25px;
+	margin-top: 22px;
+}
+
+.sd2-text-holder p:first-child,
+.sd2-text-holder2 p:first-child,
+.sd2-text-holder3 p:first-child,
+.sd2-text-holder4 p:first-child,
+.sd2-text-holder5 p:first-child,
+.sd2-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.sd2-text-holder ul,
+.sd2-text-holder2 ul,
+.sd2-text-holder3 ul,
+.sd2-text-holder4 ul,
+.sd2-text-holder5 ul,
+.sd2-text-holder6 ul {
+	font-size: .8em;
+}
+
+.star-destroyer-second-graph .first-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.star-destroyer-second-graph ul, .star-destroyer-second-graph li {
+	font-size: .9em;
+	color: #3fffff;
+}
+
+.star-destroyer-second-graph-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.star-destroyer-second-graph-battery-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sd2-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.sd2-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd2-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+.star-destroyer-second-graph-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.star-destroyer-second-graph-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/star-destroyer-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder2 {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sd2-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.sd2-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd2-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.star-destroyer-second-graph-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 30px;
+}
+
+.star-destroyer-second-graph-tesla-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder3 {
+	display: inline-block;
+}
+
+.sd2-text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.sd2-text-holder3 p{
+	margin: 0;
+}
+
+.star-destroyer2-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.star-destroyer-second-graph .second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.star-destroyer-second-graph-oil-wrapper {
+	display: flex;
+	margin: 10px 30px 0 0;
+}
+
+.star-destroyer-second-graph-oil-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder4 {
+	display: inline-block;
+}
+
+.sd2-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.sd2-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.sd2-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.star-destroyer-second-graph-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.star-destroyer-second-graph-reactor-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder5 {
+	display: inline-block;
+}
+
+.sd2-text-holder5 span {
+	color: #3fffff;
+}
+
+.star-destroyer-second-graph-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 30px 0;
+}
+
+.star-destroyer-second-graph-earth-img {
+	display: inline-block;
+	background-image: url(../img/star-destroyer-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.sd2-text-holder6 {
+	display: inline-block;
+}
+
+.sd2-text-holder6 p{
+	margin: 0;
+}
+
+.sd2-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.sd2-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.sd2-graph--text {
+	transform-origin: top;
+}
+
+
+.star-destroyer-footer {
+	margin-left: 30px;
+	display: flex;
+}
+
+.star-destroyer-footer p {
+	font-size: .8em;
+	width: 50%;
+}
+
+.sd-footer-span {
+	color: #3fffff;
+}
+
+.clouds {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+.cloud-img {
+	background-image: url(../img/mushroom-cloud.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 50px;
+}
+
+/*================ X WING SECTION =======================*/
+
+.xwing-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.xwing-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.xwing-header p span {
+	color: #f8584a;
+}
+
+.xwing-header {
+	width: 70%;
+}
+
+.xwing-header p {
+	font-size: .8em;
+}
+
+.xwing-img {
+	position: relative;
+	background-image: url(../img/x-wing.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.xwing-img-info .top-line {
+	height: 163px;
+	width: 10%;
+	border: 2px solid #f8584a;
+	border-top-left-radius: 40%;
+	border-bottom-width: 0px;
+    border-right-width: 0px;
+    position: relative;
+    top: -100px;
+    left: 17%;
+}
+
+.xwing-info-wrapper {
+	width: 50%;
+    position: relative;
+    top: -220px;
+    left: 30%;
+}
+
+.xwing-info-wrapper p:first-child {
+	font-size: .8em;
+}
+
+.xwing-info-wrapper p span {
+	color: #f8584a;
+}
+
+.xwing-power {
+	font-size: 2.7em;
+	font-family: 'impact';
+	text-transform: uppercase;
+	color: #f8584a;
+	margin: 0;
+}
+
+/*============== XWING GRAPH ===============*/
+
+.xwing-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #f8584a;
+	border-radius: 25px;
+	margin-top: -209px;
+}
+
+.xwing-text-holder p:first-child,
+.xwing-text-holder2 p:first-child,
+.xwing-text-holder3 p:first-child,
+.xwing-text-holder4 p:first-child,
+.xwing-text-holder5 p:first-child,
+.xwing-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.xwing-first-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.xwing-graph ul, .xwing-graph li {
+	font-size: .9em;
+	color: #f8584a;
+}
+
+.xwing-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.xwing-battery-img {
+	display: inline-block;
+	background-image: url(../img/xwing-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.xwing-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.xwing-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.xwing-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+.xwing-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.xwing-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/xwing-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder2 {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.xwing-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.xwing-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.xwing-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.xwing-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 30px;
+}
+
+.xwing-tesla-img {
+	display: inline-block;
+	background-image: url(../img/xwing-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder3 {
+	display: inline-block;
+}
+
+.xwing-text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.xwing-text-holder3 p{
+	margin: 0;
+}
+
+.xwing-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.xwing-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.xwing-oil-wrapper {
+	display: flex;
+	margin: 10px 30px 0 0;
+}
+
+.xwing-oil-img {
+	display: inline-block;
+	background-image: url(../img/xwing-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder4 {
+	display: inline-block;
+}
+
+.xwing-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.xwing-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.xwing-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.xwing-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.xwing-reactor-img {
+	display: inline-block;
+	background-image: url(../img/xwing-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder5 {
+	display: inline-block;
+
+}
+
+.xwing-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 30px 0;
+}
+
+.xwing-earth-img {
+	display: inline-block;
+	background-image: url(../img/xwing-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.xwing-text-holder6 {
+	display: inline-block;
+}
+
+.xwing-text-holder6 p{
+	margin: 0;
+}
+
+.xwing-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.xwing-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.xwing-graph--text {
+	transform-origin: top;
+}
+
+/*============== THE MOTHA EFFN DEATH STAR!!================*/
+
+.death-star-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.death-star-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.death-star-header p span {
+	color: #2e967b;
+}
+
+.death-star-header {
+	width: 42%;
+}
+
+.death-star-header p {
+	font-size: .8em;
+}
+
+.death-star-img {
+	background-image: url(../img/death-start.png);
+	background-size: 100% 100%;
+	transform: rotate(-20deg);
+	height: 170px;
+	width: 26%;
+	position: relative;
+	right: -70%;
+	top: -70px;
+}
+
+.death-star-planet-wrapper {
+	overflow: hidden;
+    position: relative;
+    height: 250px;
+    top: -130px;
+}
+
+.death-star-planet {
+	position: absolute;
+    left: -170px;
+    top: 15px;
+    width: 600px;
+    height: 600px;
+    border: 3px solid white;
+    box-shadow: 0 0 5px 5px #6cefc7;
+    border-radius: 300px;
+}
+    
+.death-star-beam-1{
+	position: absolute; 
+	background-color: #16ad82; 
+	top: 66px;
+    left: 39%;
+    width: 30px;
+    height: 2px;
+    transform: rotate(-220deg);
+    transform-origin: left; 
+}
+
+.death-star-beam-2{
+    position: absolute;
+    background-color: #16ad82;
+    top: 79px;
+    left: 42%;
+    width: 30px;
+    height: 2px;
+    transform: rotate(-194deg);
+    transform-origin: left;
+}
+
+.death-star-beam-3{
+	position: absolute;
+    background-color: #16ad82;
+    top: 100px;
+    left: 42%;
+    width: 30px;
+    height: 2px;
+    transform: rotate(-152deg);
+    transform-origin: left;
+}
+
+.death-star-beam-4{
+    position: absolute;
+    background-color: #16ad82;
+    top: 111px;
+    left: 35%;
+    width: 30px;
+    height: 2px;
+    transform: rotate(-121deg);
+    transform-origin: left;
+}
+
+.death-star-beam-5{
+	position: absolute;
+    background-color: #16ad82;
+    top: 109px;
+    left: 21%;
+    width: 25px;
+    height: 2px;
+    transform: rotate(-70deg);
+    transform-origin: left;
+}
+
+.death-star-beam-6{
+	position: absolute;
+    background-color: #16ad82;
+    top: 92px;
+    left: 15%;
+    width: 21px;
+    height: 2px;
+    transform: rotate(-20deg);
+    transform-origin: left; 
+}
+
+.death-star-beam-7{
+    position: absolute;
+    background-color: #16ad82;
+    top: 74px;
+    left: 16%;
+    width: 20px;
+    height: 2px;
+    transform: rotate(34deg);
+    transform-origin: left; 
+}
+
+.death-star-beam-8{
+    position: absolute;
+    background-color: #16ad82;
+    top: 61px;
+    left: 22%;
+    width: 24px;
+    height: 2px;
+    transform: rotate(-286deg);
+    transform-origin: left;
+}
+
+.death-star-beam-9{
+    position: absolute;
+    background-color: #16ad82;
+    top: 58px;
+    left: 30%;
+    width: 27px;
+    height: 2px;
+    transform: rotate(-255deg);
+    transform-origin: left; 
+}
+
+.death-star-main-beam {
+	position: absolute;
+	background-color: #16ad82;
+	height: 5px;
+	width: 200px;
+	top: 84px;
+    left: 43px;
+    transform: rotate(168deg);
+    transform-origin: left;
+}
+
+.death-star-planet-text {
+	width: 34%;
+    position: relative;
+    top: -320px;
+    margin-left: 30px;
+}
+
+.death-star-planet-text p {
+	font-size: .8em;
+}
+
+.death-star-planet-text p span {
+	font-size: 3.4em;
+	font-family: 'impact';
+	color: #07c8d9;
+}
+
+.death-star-divider {
+	position: relative;
+	top: -307px;
+	width: 100%;
+	height: 2px;
+	background-color: lightgray;
+}
+
+.death-star-second-header {
+	position: relative;
+    top: -300px;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.death-star-second-header p:first-child {
+	font-size: .8em;
+	text-align: center;
+}
+
+.death-star-hypermatter-img {
+	background-image: url(../img/hypermatter.png);
+    background-size: 100% 100%;
+    width: 110%;
+    height: 400px;
+}
+
+.death-star-second-header p span {
+	color: #2e967b;
+}
+
+.hypermatter-number {
+	font-size: 1.5em;
+	font-family: 'impact';
+	color: #07c8d9;
+	text-align: center;
+	transform-origin: top;
+}
+
+/*================= DEATH STAR GRAPH ====================*/
+
+.death-star-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #27806c;
+	border-radius: 25px;
+	margin-top: -209px;
+	top: -100px;
+}
+
+.ds-text-holder p:first-child,
+.ds-text-holder2 p:first-child,
+.ds-text-holder3 p:first-child,
+.ds-text-holder4 p:first-child,
+.ds-text-holder5 p:first-child,
+.ds-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.death-star-first-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.death-star-graph ul, .death-star-graph li {
+	font-size: .9em;
+	color: #27806c;
+}
+
+.death-star-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.death-star-battery-img {
+	display: inline-block;
+	background-image: url(../img/death-star-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.ds-text-holder {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.ds-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.ds-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+.death-star-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.death-star-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/death-star-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.ds-text-holder2 {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.ds-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.ds-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.death-star-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 30px;
+}
+
+.death-star-tesla-img {
+	display: inline-block;
+	background-image: url(../img/death-star-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.ds-text-holder3 {
+	display: inline-block;
+}
+
+.ds-text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.ds-text-holder3 p{
+	margin: 0;
+}
+
+/*.death-star-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}*/
+
+.death-star-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.death-star-oil-wrapper {
+	display: flex;
+	margin: 10px 30px 0 0;
+}
+
+.death-star-oil-img {
+	display: inline-block;
+	background-image: url(../img/death-star-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.ds-text-holder4 {
+	display: inline-block;
+}
+
+.ds-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.ds-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.ds-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.death-star-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.death-star-reactor2-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.death-star-reactor-img {
+	display: inline-block;
+	background-image: url(../img/death-star-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.ds-text-holder5 {
+	display: inline-block;
+}
+
+.ds-text-holder5 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.ds-text-holder5 p:nth-child(2n) {
+	margin: 0;
+}
+
+.ds-text-holder5 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.death-star-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 30px 0;
+}
+
+.death-star-earth-img {
+	display: inline-block;
+	background-image: url(../img/death-star-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.ds-text-holder6 {
+	display: inline-block;
+}
+
+.ds-text-holder6 p{
+	margin: 0;
+}
+
+.ds-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.ds-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.ds-graph--text {
+	transform-origin: top;
+}
+
+/*================== DRIODS =========================*/
+
+.droids-wrapper {
+	position: relative;
+	top: -100px;
+}
+
+.droids-header {
+	position: relative;
+	margin-left: 30px;
+}
+
+.droids-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.droids-header p span {
+	color: #a9a961;
+}
+
+.droids-header {
+	width: 100%;
+}
+
+.droids-header p {
+	font-size: .8em;
+}
+
+.droids-first {
+	width: 80%;
+}
+
+.droids-second {
+	width: 50%;
+}
+
+.droids-info {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	top: 144px;
+	width: 32%;
+	height: 170px;
+	border: 2px solid #a86248;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px; 
+	border-right-width: 0;
+	margin-left: 50px;
+}
+
+.droids-info p {
+	font-size: .8em;
+	width: 60%;
+	padding-left: 20px;
+}
+
+.droids-info p span {
+	color: #a9a961;
+}
+
+.droids-info-number {
+	font-size: 2em;
+	font-family: 'impact';
+}
+
+.droids-img {
+	position: relative;
+	top: -200px;
+	background-image: url(../img/droids.png);
+	background-size: 100% 100%;
+	width: 50%;
+	height: 350px;
+	margin: 0 auto;
+}
+
+/*========================== DROIDS GRAPH ====================*/
+
+.droids-graph {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 2px solid #a9a961;
+	border-radius: 25px;
+	margin-top: -209px;
+	top: 30px;
+}
+
+.death-star-first-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.droids-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.droids-battery-img {
+	display: inline-block;
+	background-image: url(../img/droids-battery-icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.droids-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.droids-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/droids-carbattery-icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+/*==================== HYPERSPACE =======================*/
+
+.hyperspace-wrapper {
+	position: relative;
+	top: -70px;
+}
+
+.hyperspace-header {
+	position: relative;
+	margin-left: 30px;
+	width: 80%;
+}
+
+.hyperspace-header h1 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.hyperspace-header p span {
+	color: #7963d0;
+}
+
+.hyperspace-header p {
+	font-size: .8em;
+}
+
+.hyperspace-planet-wrapper {
+	position: relative;
+	top: 70px;
+	width: 40%;
+	height: 200px;
+	background-color: #7963d0;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.hyperspace-planet-wrapper p {
+	padding: 20px;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.hyperspace-planet-img {
+	position: absolute;
+	background-image: url(../img/planet-icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 160px;
+	top: -80px;
+	left: 40px;
+}
+
+.hyperspace-voyager-wrapper  p{
+	position: relative;
+	transform-origin: left;
+	font-size: .8em;
+	width: 40%;
+	top: -140px;
+	left: 42%;
+}
+
+.voyager-number {
+	font-size: 2.5em;
+	color: #7963d0;
+	font-family: 'impact';
+	transform-origin: top;
+}
+
+.hyperspace-voyager-img {
+	position: absolute;
+	right: 0;
+	top: 30%;
+	background-image: url(../img/voyager.png);
+	background-size: 100% 100%;
+	width: 50%;
+	height: 200px;
+}
+
+.hyperspace-voyager-info {
+	display: flex;
+}
+
+.open-bracket-hs, .close-bracket-hs {
+	position: absolute;
+	font-size: 10em;
+	color: #7963d0;
+	top: 280px;
+}
+
+.open-bracket-hs {
+	left: 50px;
+}
+
+.close-bracket-hs {
+	right: 50px;
+}
+
+.hyperspace-voyager-info-text {
+	position: relative;
+	top: 10px;
+	left: 17%;
+	display: flex;
+	flex-direction: column;
+}
+
+.hyperspace-voyager-info-text p {
+	margin: 0;
+	font-size: 1.3em;
+	transform-origin: bottom;
+}
+
+.hs-span {
+	color: #7963d0;
+}
+
+.hs-span-indent {
+	padding-left: 82px;
+}
+
+/*================== HYPERSPACE GRAPH ==================*/
+
+.hyperspace-graph {
+	display: flex;	
+	border: 2px solid #4a59be;
+	border-radius: 25px;
+	margin-top: 62px;
+	flex-direction: column;
+}
+
+.graph--wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.small-voyager-wrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.hyperspace-voyager-img-small {
+	background-image: url(../img/voyager.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 70px;
+}
+
+.small-voyager-info {
+	font-size: .8em;
+	padding-left: 25px;
+	margin: 0;
+	padding-top: 25px;
+}
+
+.hs-text-holder p:first-child,
+.hs-text-holder2 p:first-child,
+.hs-text-holder3 p:first-child,
+.hs-text-holder4 p:first-child,
+.hs-text-holder5 p:first-child,
+.hs-text-holder6 p:first-child {
+	font-size: .8em;
+}
+
+.hs-text-holder ul,
+.hs-text-holder2 ul,
+.hs-text-holder3 ul,
+.hs-text-holder4 ul,
+.hs-text-holder5 ul,
+.hs-text-holder6 ul {
+	font-size: .8em;
+}
+
+.hyperspace-first-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.hyperspace-graph ul, .hyperspace-graph li {
+	font-size: .9em;
+	color: #7963d0;
+}
+
+.hyperspace-battery-wrapper {
+	display: flex;
+	margin: 10px 0 0 30px;
+}
+
+.hyperspace-battery-img {
+	display: inline-block;
+	background-image: url(../img/hyperspace-battery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.hs-text-holder {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs-text-holder p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.hs-text-holder p:nth-child(2n) {
+	margin: 0;
+}
+
+.hs-text-holder ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+.hyperspace-car-battery-wrapper {
+	display: flex;
+/*	justify-content: center;*/
+	margin: 20px 0 20px 30px;
+}
+
+.hyperspace-car-battery-img {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/hyperspace-carbattery-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.hs-text-holder2 {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs-text-holder2 p:first-child {
+	margin: 0;
+}
+
+.hs-text-holder2 p:nth-child(2n) {
+	margin: 0;
+}
+
+.hs-text-holder2 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.hyperspace-tesla-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 30px;
+}
+
+.hyperspace-tesla-img {
+	display: inline-block;
+	background-image: url(../img/hyperspace-tesla-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.hs-text-holder3 {
+	display: inline-block;
+}
+
+.hs-text-holder3 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.hs-text-holder3 p{
+	margin: 0;
+}
+
+.hyperspace-graph-divider {
+	width: 2px;
+    border-radius: 4px;
+	background-color: white;
+}
+
+.hyperspace-second-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.hyperspace-oil-wrapper {
+	display: flex;
+	margin: 10px 30px 0 0;
+}
+
+.hyperspace-oil-img {
+	display: inline-block;
+	background-image: url(../img/hyperspace-oil-icon.png);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.hs-text-holder4 {
+	display: inline-block;
+}
+
+.hs-text-holder4 p:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.hs-text-holder4 p:nth-child(2n) {
+	margin: 0;
+}
+
+.hs-text-holder4 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.hyperspace-reactor-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 20px 30px 20px 0;
+}
+
+.hyperspace-reactor-img {
+	display: inline-block;
+	background-image: url(../img/hyperspace-powerplant-icon.png);
+	background-size: 100% 100%;
+	width: 55px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.hs-text-holder5 {
+	display: inline-block;
+}
+
+.hs-text-holder5 span {
+	color: #3fffff;
+}
+
+.hyperspace-earth-wrapper {
+	display: inline-table;
+	margin: 0 30px 30px 0;
+}
+
+.hyperspace-earth-img {
+	display: inline-block;
+	background-image: url(../img/hyperspace-earth-icon.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.hs-text-holder6 {
+	display: inline-block;
+}
+
+.hs-text-holder6 p{
+	margin: 0;
+}
+
+.hs-text-holder6 ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.hs-graph-imgs {
+	background-repeat: no-repeat;
+}
+
+.hs-graph--text {
+	transform-origin: top;
+}
+
+/*===================== FOOTER ====================*/
+
+.footer {
+	position: relative;
+	margin-left: 30px;
+}
+
+.footer h2 {
+	font-family: 'Audiowide', sans-serif;
+	text-transform: uppercase;
+}
+
+.footer {
+	width: 70%;
+}
+
+.footer p {
+	font-size: .8em;
+}
+
+.ebates-img {
+	background-image: url(../img/ebates.png);
+	background-size: 100% 100%;
+	width: 100px;
+	height: 60px;
+	position: relative;
+    top: -90px;
+    right: -110%;
+}
+
+@media (max-width: 400px) {
+	.logo h1 {
+		font-size: .6em;
+	}
+
+	.intro-blaster {
+		height: 10%;
+	}
+
+	.intro-graph {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 666px) {
+	.logo h1 {
+		font-size: .6em;
+	}
+
+	.intro-battery {
+		height: 10%;
+	}
+
+	.first-saber-bracket {
+		left: 60%;
+	}
+
+	.blast-door-img {
+		width: 50%;
+		height: 40%;
+		top: 60px;
+		left: 30%;
+	}
+
+	.blast-door-circle {
+		width: 40%;
+		height: 40%;
+		border-radius: 100%;
+		top: 56px;
+		left: 29.5%;
+	}
+
+	.saber-info-wrapper {
+		width: auto;
+	}
+
+	.saber-power .number169, .saber-power .GJ {
+		font-size: 3em
+	}
+	
+	.saber-info-second-text {
+		position: unset;
+	}
+
+	.saber-math {
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.open-bracket-saber, .close-bracket-saber {
+		position: unset;
+	}
+
+	.gj-line {
+		display: none;
+	}
+
+	.saber-blade {
+		top: 284px;
+	}
+
+	.saber-line {
+		display: none;
+	}
+
+	.lightsaber-graph {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.lightsaber-battery-wrapper {
+		margin: 0;
+	}
+
+	.lightsaber-car-battery-wrapper {
+		margin: 0;
+		justify-content: flex-start;
+	}
+
+	.lightsaber-tesla-wrapper {
+		margin: 0;
+	}
+
+	.lightsaber-oil-wrapper, .lightsaber-reactor-wrapper, .lightsaber-earth-wrapper {
+		margin: 0;
+	}
+
+	.leia-img-wrapper .bot-line {
+		display: none;
+	}
+
+	.chewy-wrapper {
+		margin-top: 70px;
+	}
+
+	.chewy-img {
+		display: none;
+	}
+
+	.han-wrapper .left-box {
+		width: 100%;
+	}
+
+	.han-img {
+		position: static;
+		margin: 0 auto;
+	}
+
+	.blaster-graph {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blaster-battery-wrapper,
+	.blaster-car-battery-wrapper,
+	.blaster-tesla-wrapper,
+	.blaster-oil-wrapper,
+	.blaster-reactor-wrapper,
+	.blaster-earth-wrapper {
+		margin: 0;
+	}
+
+	.star-destroyer-img {
+		top: -80px;
+	}
+
+	.star-destroyer-blast-line {
+		top: 180px;
+	}
+
+	.star-destroyer-blast-ball {
+		left: 11%;
+		top: 173px;
+	}
+
+	.star-destroyer-second-header {
+		margin-top: 240px;
+	}
+
+	.star-destroyer-second-header .top-line {
+		right: -10%;
+	}
+
+	.star-destroyer-first-graph {
+		margin-top: -20px;
+	}
+
+	.star-destroyer-first-graph {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.star-destroyer-battery-wrapper,
+	.star-destroyer-car-battery-wrapper,
+	.star-destroyer-tesla-wrapper,
+	.star-destroyer-oil-wrapper,
+	.star-destroyer-reactor-wrapper,
+	.star-destroyer-earth-wrapper {
+		margin: 0;
+	}
+
+	.star-destroyer-small-img {
+		left: 20%;
+	}
+
+	.star-destroyer-second-graph {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.star-destroyer-second-graph-battery-wrapper,
+	.star-destroyer-second-graph-car-battery-wrapper,
+	.star-destroyer-second-graph-tesla-wrapper,
+	.star-destroyer-second-graph-oil-wrapper,
+	.star-destroyer-second-graph-reactor-wrapper,
+	.star-destroyer-second-graph-earth-wrapper {
+		margin: 0;
+	}
+
+	.xwing-power {
+		font-size: 1.3em;
+	}
+
+	.xwing-graph {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.xwing-battery-wrapper,
+	.xwing-car-battery-wrapper,
+	.xwing-tesla-wrapper,
+	.xwing-oil-wrapper,
+	.xwing-reactor-wrapper,
+	.xwing-earth-wrapper {
+		margin: 0;
+	}
+	
+	.death-star-img {
+		top: -140px;
+	}
+
+	.death-star-main-beam {
+		left: 24px;
+	}
+	
+	.death-star-planet-text p span {
+		font-size: 2em;
+	}
+
+	.death-star-graph {
+		flex-direction: column;
+	}
+
+	.death-star-battery-wrapper,
+	.death-star-car-battery-wrapper,
+	.death-star-tesla-wrapper,
+	.death-star-oil-wrapper,
+	.death-star-reactor-wrapper,
+	.death-star-earth-wrapper {
+		margin: 0;
+	}
+
+	.droids-info {
+		height: 190px;
+	}
+
+	.droids-info p {
+		width: 100%
+	}
+
+	.droids-img {
+		left: 50px;
+	}
+
+	.hyperspace-planet-wrapper p{
+		font-size: .8em;
+		width: 110%;
+		padding: 20px;
+	}
+
+	.hyperspace-planet-img {
+		left: 130px;
+	}
+
+	.hyperspace-voyager-wrapper {
+		position: relative;
+		top: 60px;
+	}
+
+	.open-bracket-hs, .close-bracket-hs {
+		top: 31%;
+	}
+
+	.open-bracket-hs {
+		left: 0;
+	}
+
+	.close-bracket-hs {
+		right: 77px;
+	}
+
+	.hs-span-indent {
+		padding:0;
+	}
+
+	.hyperspace-voyager-info-text {
+		width: 50%;
+		top:  -55px;
+	}
+
+	.hyperspace-voyager-info-text p {
+		font-size: .8em;
+	}
+
+	.graph--wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hyperspace-battery-wrapper,
+	.hyperspace-car-battery-wrapper,
+	.hyperspace-tesla-wrapper,
+	.hyperspace-oil-wrapper,
+	.hyperspace-reactor-wrapper,
+	.hyperspace-earth-wrapper {
+		margin: 0;
+	}
+
+	.footer h2 {
+		font-size: 1em;
+	}
+
+	.ebates-img {
+		position: unset;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
