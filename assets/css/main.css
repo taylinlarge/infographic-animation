@@ -2439,6 +2439,7 @@ p.saber-info-third-text, p.saber-info-fourth-text {
 .death-star-hypermatter-img {
 	background-image: url(../img/hypermatter.png);
     background-size: 100% 100%;
+    transform-origin: 50% 50%;
     width: 110%;
     height: 400px;
 }
@@ -3169,6 +3170,7 @@ p.saber-info-third-text, p.saber-info-fourth-text {
 	display: inline-block;
 	background-image: url(../img/hyperspace-powerplant-icon.png);
 	background-size: 100% 100%;
+
 	width: 55px;
 	height: 60px;
 	margin-right: 20px;

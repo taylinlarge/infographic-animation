@@ -22,9 +22,9 @@ TweenMax.staggerFrom( '.first-graph-imgs', 1, {scale: '2', rotation: '320',opaci
 var saberHeader = new Waypoint({
 	element: document.querySelector('.lightsaber-header h1'),
 	handler: function(direction) {
-		TweenMax.to( '.lightsaber-header h1', 2, {color: '#4ffb6b', repeat: 'infinite'});
-		TweenMax.to( '.dashed-circle', 10,{rotation: '360', repeat: 'infinite', ease:Linear.easeNone});
-
+		TweenMax.to( '.lightsaber-header h1', 2, {color: '#4ffb6b', repeat: 'infinite', overwrite:'none'});
+		TweenMax.to( '.dashed-circle', 10,{rotation: '360', repeat: 'infinite', ease:Linear.easeNone, overwrite:'none'});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -40,6 +40,7 @@ var saberInfo = new Waypoint({
 		TweenMax.from('.blast-door-circle', 5, {opacity:'0', delay: '2'});
 		TweenMax.from('.blast-door-circle-line', 2, {width:'0', delay: '2.5'});
 		TweenMax.from('.blast-door-third-text', 2, {top: '-30%', opacity:'0'});
+		this.destroy();
 		
 	},
 	offset: '75%'
@@ -53,6 +54,7 @@ var saberPower = new Waypoint({
 		TweenMax.from('.gj-line .bot-line', .5,{width: '0', delay:'.5'});
 		TweenMax.from('.open-bracket-saber', .1,{color:'#e5fe4a', repeat:'2',delay:'1'});
 		TweenMax.from('.close-bracket-saber', .1,{color:'#e5fe4a', repeat:'2',delay:'1'});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -60,7 +62,8 @@ var saberPower = new Waypoint({
 var turnOnSaber = new Waypoint({
 	element: document.querySelector('.GJ'),
 	handler: function(direction) {
-		TweenMax.from('.saber-blade', .5, {width:'0%'})
+		TweenMax.from('.saber-blade', .5, {width:'0%'});
+		this.destroy();
 	},
 	offset: '25%'
 });
@@ -70,6 +73,7 @@ var saberGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.ls-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.ls--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset:'75%'
 });
@@ -82,6 +86,7 @@ var blasterH1 = new Waypoint({
 		TweenMax.from('.leia-img-wrapper .vertical-line', 2,{width:'0', delay:'2'});
 		TweenMax.from('.leia-img', 2,{backgroundPosition:'-20em', delay: 2.5});
 		TweenMax.from('.blaster-beam-img', .5,{backgroundPosition:'-20em 20em', width:'0', height:'0', delay:4});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -93,7 +98,8 @@ var blasterStickey = new Waypoint({
 		TweenMax.to('.blaster-saber-img', 1,{rotation:'20', repeat:'infinite',yoyo: true});
 		TweenMax.to('.blaster-rifle-img', 1,{rotation:'-20', repeat:'infinite', yoyo: true});
 		TweenMax.from('.left-box p', 3, {rotationY:'90', opacity:'0'});
-		TweenMax.from('.han-img', 1.5,{backgroundPosition:'40em'})
+		TweenMax.from('.han-img', 1.5,{backgroundPosition:'40em'});
+		this.destroy();
 	},
 	offset:'50%'
 });
@@ -103,6 +109,7 @@ var blasterGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.blaster-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.blaster--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset: '70%'
 });
@@ -112,7 +119,8 @@ var sdH1 = new Waypoint({
 	handler: function(direction){
 		TweenMax.from('.star-destroyer-header h1', .2,{color:'#3fffff', repeat:'infinite'});
 		TweenMax.staggerFrom('.sd--number', 1.5,{left:'-100%', ease:Linear.easeNone}, -.1);
-		TweenMax.from('.star-destroyer-header .second-header-text', 3, {opacity:'0', delay:'2'});
+		TweenMax.from('.star-destroyer-header .second-header-text', 3, {opacity:'0', delay:'2'});;
+		this.destroy();
 	},
 	offset:'75%'
 });
@@ -123,6 +131,8 @@ var sdImg = new Waypoint({
 		TweenMax.from('.star-destroyer-img', 1,{right:'-100%'});
 		TweenMax.from('.star-destroyer-blast-line', .2,{width:'0', delay: '1'});
 		TweenMax.from('.star-destroyer-blast-ball', .2, {scale:'0', delay:'1.2', repeat:'infinite', repeatDelay: 2});
+		this.destroy();
+
 	},
 	offset:'60%'
 });
@@ -132,6 +142,7 @@ var sdFirstGraph = new Waypoint({
 	handler: function(direction) {
 		TweenMax.staggerFrom('.sd-graph-imgs', 2, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.sd-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset:'50%'
 });
@@ -140,6 +151,7 @@ var sdSecondHeader = new Waypoint({
 	element: document.querySelector('.star-destroyer-third-header'),
 	handler: function(direction){
 		TweenMax.staggerFrom('.sd-third-power', .6,{left: '-100%', ease:Linear.easeNone}, -.2);
+		this.destroy();
 	},
 	offset:'75%'
 });
@@ -149,6 +161,7 @@ var sdSecondGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.sd2-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.sd2-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset:'75%'
 });
@@ -156,7 +169,8 @@ var sdSecondGraph = new Waypoint({
 var clouds = new Waypoint({
 	element: document.querySelector('.cloud-img'),
 	handler: function(direction){
-		TweenMax.staggerFrom('.cloud-img', 1, {backgroundPosition:'0 10em', scale: '4'}, .5)
+		TweenMax.staggerFrom('.cloud-img', 1, {backgroundPosition:'0 10em', scale: '4'}, .5);
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -165,6 +179,7 @@ var xWing = new Waypoint({
 	element: document.querySelector('.xwing-img'),
 	handler: function(direction){
 		TweenMax.from('.xwing-img', 1, {scale:'0', top:'100%', right:'-100%', ease:Linear.easeOut});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -174,6 +189,7 @@ var xwingGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.xwing-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.xwing-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset: '70%'
 });
@@ -185,6 +201,7 @@ var fireAtWill = new Waypoint({
 		TweenMax.staggerFrom('.fire', 4,{width:'0'}, .1);
 		TweenMax.from('.death-star-main-beam', .5,{width:'0', delay:'5'});
 		TweenMax.from('.death-star-planet-text p span', .1,{color:'white', delay: '5', repeat: '5'});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -193,6 +210,7 @@ var hyperMatter = new Waypoint({
 	element: document.querySelector('.death-star-second-header'),
 	handler: function (direction) {
 		TweenMax.from('.death-star-hypermatter-img', 4, {rotation:'360', repeat:'infinite', ease:Linear.easeNone});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -201,6 +219,7 @@ var dsGraphHeader = new Waypoint({
 	element: document.querySelector('.hypermatter-number'),
 	handler: function(direction){
 		TweenMax.from('.hypermatter-number', 2, {rotationX:'90', opacity:'0'});
+		this.destroy();
 	},
 	offset: '75%'
 });
@@ -210,6 +229,7 @@ var deathStarGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.ds-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.ds-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset: '70%'
 });
@@ -220,6 +240,7 @@ var droidsHeader = new Waypoint({
 		TweenMax.from('.droids-first', 1,{opacity:'0'});
 		TweenMax.from('.droids-second', 1,{opacity:'0'});
 		TweenMax.from('.droids-info', 2,{width:'0%', opacity:'0'});
+		this.destroy();
 	},
 	offset: '50%'
 });
@@ -229,6 +250,7 @@ var droidsGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.droids-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.droids-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset: '70%'
 });
@@ -241,6 +263,7 @@ var hyperspace = new Waypoint({
 		TweenMax.from('.hyperspace-voyager-wrapper p', 2,{rotationY:'90', opacity: '0', delay: '1'});
 		TweenMax.from('.hyperspace-voyager-img', 2, {right:'-100%'});
 		TweenMax.staggerFrom('.hyperspace-voyager-info-text p', 1,{rotationX:'-90'}, 1);
+		this.destroy();
 	},
 	offset:'75%'
 });
@@ -250,6 +273,7 @@ var hyperspaceGraph = new Waypoint({
 	handler: function(direction){
 		TweenMax.staggerFrom('.hs-graph-imgs', 1, {backgroundPosition:'0em 5em', opacity:'0'}, .5);
 		TweenMax.staggerFrom('.hs-graph--text', 1,{rotationX:'-90'}, .6);
+		this.destroy();
 	},
 	offset: '70%'
 });
@@ -258,6 +282,7 @@ var footer = new Waypoint({
 	element: document.querySelector('.footer'),
 	handler: function(direction){
 		TweenMax.to('.footer h2', .1, {color: '#' + Math.floor(Math.random() * 16777215).toString(16), repeat:'infinite'});
+		this.destroy();
 	},
 	offset:'100%'
 });
